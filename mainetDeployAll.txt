@@ -1,0 +1,101 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'bscMain'
+> Network id:      56
+> Block gas limit: 60000000 (0x3938700)
+
+
+1_migrate_contracts.js
+======================
+
+   Deploying 'RiceToken'
+   ---------------------
+   > transaction hash:    0x15ed1dbc92d6053335f8cf413f948d928c6daf77476f52dd4bed0819e8930915
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x482177397f3289daDB41B223704D0d06D03e1aE4
+   > block number:        8039441
+   > block timestamp:     1622919078
+   > account:             0x7A3876E516d7F221Eb4791410F7434F20f01773A
+   > balance:             0.43108151
+   > gas used:            2066437 (0x1f8805)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04132874 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 8039444)
+   > confirmation number: 3 (block: 8039445)
+   > confirmation number: 4 (block: 8039446)
+   > confirmation number: 6 (block: 8039448)
+   > confirmation number: 7 (block: 8039449)
+   > confirmation number: 8 (block: 8039450)
+   > confirmation number: 10 (block: 8039452)
+
+   Deploying 'RiceField'
+   ---------------------
+   > transaction hash:    0xe0931b86230da28bc7385406d9c3d1f5cc69696a7dd03b91d146d65c9f28367e
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x5CB3fe988995464818cee1DB46fBd606d301AC64
+   > block number:        8039456
+   > block timestamp:     1622919123
+   > account:             0x7A3876E516d7F221Eb4791410F7434F20f01773A
+   > balance:             0.38164857
+   > gas used:            2471647 (0x25b6df)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04943294 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8039458)
+   > confirmation number: 3 (block: 8039460)
+   > confirmation number: 4 (block: 8039461)
+   > confirmation number: 5 (block: 8039462)
+   > confirmation number: 7 (block: 8039464)
+   > confirmation number: 8 (block: 8039465)
+   > confirmation number: 9 (block: 8039466)
+   > confirmation number: 11 (block: 8039468)
+
+   Deploying 'RiceMarket'
+   ----------------------
+   > transaction hash:    0x4aa2f1fef504191bc3d91b17f4e4764c47ac37d077c498230e00bd84a861d814
+   > Blocks: 3            Seconds: 8
+   > contract address:    0x2ef129bfc38463e9Cde5cd079A9971e959634A59
+   > block number:        8039472
+   > block timestamp:     1622919171
+   > account:             0x7A3876E516d7F221Eb4791410F7434F20f01773A
+   > balance:             0.31500341
+   > gas used:            3332258 (0x32d8a2)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06664516 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8039474)
+   > confirmation number: 3 (block: 8039476)
+   > confirmation number: 4 (block: 8039477)
+   > confirmation number: 5 (block: 8039478)
+   > confirmation number: 7 (block: 8039480)
+   > confirmation number: 8 (block: 8039481)
+   > confirmation number: 9 (block: 8039482)
+   > confirmation number: 11 (block: 8039484)
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.15740684 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.15740684 ETH
+
+

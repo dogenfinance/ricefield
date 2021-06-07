@@ -86,7 +86,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -99,7 +100,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -123,7 +125,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -166,7 +169,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -179,7 +183,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -240,7 +245,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -253,7 +259,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -273,7 +280,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -286,7 +294,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -13317,9 +13326,23 @@
     "name": "solc",
     "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "56": {
+      "events": {},
+      "links": {},
+      "address": "0x482177397f3289daDB41B223704D0d06D03e1aE4",
+      "transactionHash": "0x15ed1dbc92d6053335f8cf413f948d928c6daf77476f52dd4bed0819e8930915"
+    },
+    "97": {
+      "events": {},
+      "links": {},
+      "address": "0xf4C063A10F1378a46Bc3F7984c044896D32e1aAa",
+      "transactionHash": "0xc5fb2f952e8c1fde288543437b9487a851201b873b0f6b342b03310e69673417"
+    }
+  },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-05-23T04:22:07.797Z",
+  "updatedAt": "2021-06-05T18:53:29.081Z",
+  "networkType": "ethereum",
   "devdoc": {
     "details": "owner should be an admin. Owner can set the RiceField and RiceMarket contract",
     "kind": "dev",
