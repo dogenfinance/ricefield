@@ -17,7 +17,7 @@ Rice Field
 ----------
 An 0.8.0 Sushi fork that farms Rice Token. All the usual bells and whistles
 
- Truffle Launch instrusctions
+ Truffle Launch Instructions
 -----------------------------
 - Install dependancies `npm i`
 - Dev wallet setup. Enter your seed phrase into `secrets.json` under mnemonic
