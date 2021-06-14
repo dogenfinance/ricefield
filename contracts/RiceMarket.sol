@@ -5,12 +5,13 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol";
 
 interface IRICE is IERC20{
     function spend(address, uint256) external;
 }
 
-contract RiceMarket is ERC1155, Ownable{
+contract RiceMarket is ERC1155, Ownable, ERC1155Holder{
     IRICE public RICE;
     uint public latest;                            //The latest NFT ID
 
@@ -72,6 +73,10 @@ contract RiceMarket is ERC1155, Ownable{
     /// @dev find if NFT is sold out
     function isAvailable(uint ID) public view returns(bool){
         return balanceOf(address(this),ID) > 0 ? true : false;
+    }
+
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC1155,ERC1155Receiver) returns (bool) {
+        return super.supportsInterface(interfaceId);
     }
 
 }
